@@ -1,0 +1,186 @@
+    /* Css Dosyası*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#sayfa {
+    width: 400px;
+    min-height: 600px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}
+
+
+/*Banner*/
+
+#banner {
+    width: 398px;
+    height: 100px;
+    border-style: none;
+    border-width: 1px;
+    background-color: white;
+    margin: auto;
+}
+
+
+/*logo*/
+
+#logo {
+    width: 60px;
+    height: 60px;
+    border-style: none;
+    border-width: 1px;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+
+
+/*sosyal medya ikonları*/
+
+#sosyal {
+    width: 180px;
+    height: 50px;
+    border-style: none;
+    border-width: 1px;
+    background-color: white;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 10px;
+}
+
+#ikon {
+    float: right;
+    margin-left: 10px;
+}
+
+
+/*Anamenü*/
+
+#anamenu {
+    width: 398px;
+    height: 50px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: aqua;
+    margin: auto;
+}
+
+#anamenu ul li {
+    width: 80px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: blue;
+    background-color: deepskyblue;
+    float: left;
+    padding: 5px;
+    margin-left: 10spx;
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+#anamenu ul a {
+    font-family: verdana;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#anamenu ul {
+    list-style-type: none;
+}
+
+#anamenu ul a:link {
+    color: blue;
+}
+
+#anamenu ul a:visited {
+    color: brown;
+}
+
+#anamenu ul a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+#anamenu ul a:active {
+    color: red;
+}
+
+
+/*İçerik ve Yanmenu Kodları*/
+
+#icerik {
+    width: 300px;
+    min-height: 400px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: white;
+    float: left;
+}
+
+#yanmenu {
+    width: 96px;
+    min-height: 400px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: blue;
+    float: left;
+}
+
+.resim {
+    float: left;
+    width: 100px;
+    margin: 5px;
+}
+
+.metin {
+    font-family: verdana;
+    font-size: 12px;
+    color: blueviolet;
+}
+
+.baslik {
+    font-family: times;
+    font-size: 20px;
+    color: red;
+    font-weight: bolder;
+}
+
+
+/*Altmenu*/
+
+#altmenu {
+    width: 398px;
+    min-height: 50px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: aqua;
+    float: left;
+    text-align: center;
+    color: black;
+}
+
+#altmenu a {
+    font-family: verdana;
+    font-size: 10px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+#altmenu a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.kucukmetin {
+    font-size: 10px;
