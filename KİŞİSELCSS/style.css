@@ -1,0 +1,200 @@
+/* kutular sabit genişlikte olsun */
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* kutu genişlikleri */
+
+.col-1 {
+    width: 8.33%
+}
+
+.col-2 {
+    width: 16.66%
+}
+
+.col-3 {
+    width: 25%
+}
+
+.col-4 {
+    width: 33.33%
+}
+
+.col-5 {
+    width: 41.66%
+}
+
+.col-6 {
+    width: 50%
+}
+
+.col-7 {
+    width: 58.33%
+}
+
+.col-8 {
+    width: 66.66%
+}
+
+.col-9 {
+    width: 75%
+}
+
+.col-10 {
+    width: 83.33%
+}
+
+.col-11 {
+    width: 91.66%
+}
+
+.col-12 {
+    width: 100%
+}
+
+
+/* satırlar */
+
+.row {
+    color: darkgreen;
+    /* border: rgb(93, 247, 88) solid 3px; */
+    background-color: rgb(23, 152, 23);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* satırlar yan yana gelmesin */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* tepkisel resim */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* "col-" yasla */
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+    /* border: darkgreen 2px solid; */
+    border-radius: 8px;
+    background-color: rgb(180, 249, 111);
+}
+
+
+/* 768px den küçük ekranlarda kutu genişliği %100 olsun */
+
+@media screen and(max-width: 768px) {
+    [class*="col-"] {
+        width: 100%
+    }
+}
+
+
+/* kutu yükseklikleri */
+
+#ust {
+    min-height: 100px;
+}
+
+#menu {
+    min-height: 50px;
+}
+
+#orta {
+    min-height: 400px;
+}
+
+#alt {
+    min-height: 50px;
+}
+
+
+/* sosyal medya ikonları*/
+
+#ikon {
+    width: 50px;
+    float: right;
+    margin-right: 10px;
+}
+
+
+/* anamenu için kodlar */
+
+#menu #anamenu ul {
+    list-style-type: none;
+}
+
+#menu #anamenu ul li {
+    border: 1px solid darkgreen;
+    width: 25%;
+    float: left;
+    background-color: rgb(154, 242, 67);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* 768px den küçük ekranlarda için tepkisel buton genişliği %100 olsun */
+
+@media screen and(max-width: 768px) {
+    #menu #anamenu ul li {
+        width: 100%
+    }
+}
+
+
+/* anamenu linkleri */
+
+#menu #anamenu a {
+    color: green;
+    font-family: verdana;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#menu #anamenu a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+#menu #anamenu a:active {
+    color: blueviolet;
+}
+
+
+/* altmenu */
+
+#alt #altmenu p {
+    text-align: center;
+}
+
+#alt #altmenu p a {
+    color: green;
+}
+
+#orta #icerik p {
+    text-align: center;
+}
+
+#yanmenu {
+    text-align: center;
+}
